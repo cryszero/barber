@@ -1,0 +1,128 @@
+body {
+  font-size: 18px;
+  line-height: 27px;
+  font-family: 'PT Sans Narrow', Arial, sans-serif;
+  color: #f7f4f1;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  background-color: #292929; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px; }
+
+.page-header {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  @media (min-width: 768px) {
+    .page-header {
+      width: 768px; } }
+  @media (min-width: 1200px) {
+    .page-header {
+      width: 1200px; } }
+
+@media (min-width: 768px) {
+  .page-header {
+    padding: 0 64px; }
+  .page-header__logo {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+    margin: 0 auto; } }
+
+@media (min-width: 1200px) {
+  .page-header {
+    padding: 0 151px; } }
+
+.main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  width: 320px; }
+
+.main-nav__toggle {
+  display: none; }
+
+.main-nav__list,
+.main-nav__user-list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.main-nav__list {
+  background: #826550; }
+
+.main-nav__user-list {
+  background: #6a4d38; }
+
+.main-nav__item,
+.main-nav__user-item {
+  min-width: 229px;
+  padding-left: 21px; }
+
+.main-nav__item {
+  border-top: 1px solid #826550;
+  border-bottom: 1px solid #71543f; }
+
+.main-nav__item a,
+.main-nav__user-item a {
+  color: #fff;
+  text-decoration: none;
+  line-height: 24px;
+  display: block; }
+
+.main-nav__item a {
+  text-transform: uppercase; }
+
+@media (min-width: 768px) {
+  .main-nav {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%; }
+  .main-nav__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%; }
+  .main-nav__list,
+  .main-nav__user-list {
+    background: transparent; }
+  .main-nav__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .main-nav__item {
+    border: 0; }
+  .main-nav__item,
+  .main-nav__user-item {
+    min-width: auto;
+    padding: 0; }
+  .main-nav__item a,
+  .main-nav__user-item a {
+    padding: 26px 16px; }
+  .main-nav__user-list {
+    margin-left: auto; } }
+
+@media (min-width: 1200px) {
+  .main-nav__item a,
+  .main-nav__user-item a {
+    padding: 26px 32px; } }
